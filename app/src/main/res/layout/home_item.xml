@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/black">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/uyrasmi"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/houseicon"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/egasiraqami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/uyrasmi"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/uyegasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uy_egasi"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:layout_marginHorizontal="5dp"/>
+
+        <TextView
+            android:id="@+id/uyraqami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0_uy"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/egasiraqami"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        tools:ignore="RelativeOverlap">
+
+        <TextView
+            android:id="@+id/telefonraqami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_998906693649"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:layout_marginHorizontal="20dp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/kadastrraqami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1234567"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:layout_marginHorizontal="20dp"
+            tools:ignore="RelativeOverlap" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/joylashuv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qarshi"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_toEndOf="@+id/linearlayout"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="20dp"
+        tools:ignore="RelativeOverlap" />
+
+
+
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/more"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:contentDescription="@string/more"
+            app:tint="@color/white"
+            android:layout_alignParentEnd="true"
+            />
+
+
+
+
+</RelativeLayout>

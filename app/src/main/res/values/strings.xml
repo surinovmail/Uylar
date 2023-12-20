@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Uylar</string>
+    <string name="addicon">addicon</string>
+    <string name="yangi_uy">Yangi uy</string>
+    <string name="uylar_ro_yxati">Uylar ro\'yxati</string>
+    <string name="uy_egasi">Uy egasi</string>
+    <string name="_0_uy">20-uy</string>
+    <string name="_998906693649">+998906693649</string>
+    <string name="uy_egasi_telefon_raqami">Uy egasi telefon raqami</string>
+    <string name="more">more</string>
+    <string name="uy_raqami">Uy raqami</string>
+    <string name="add">Qo\'shish</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="o_zgartirish">O\'zgartirish</string>
+    <string name="o_chirish">O\'chirish</string>
+    <string name="yangi_uy_egasi">Yangi uy egasi</string>
+    <string name="yangi_uy_raqami">Yangi uy raqami</string>
+    <string name="yangi_telefon_raqam">Yangi telefon raqam</string>
+    <string name="ro_yxatda_uylar_mavjud_emas">Ro\'yxatda uylar mavjud emas</string>
+    <string name="qayerda_joylashgan">Qayerda joylashgan</string>
+    <string name="kadastr_raqami">Kadastr raqami</string>
+    <string name="yangi_joylashuv">Yangi joylashuv</string>
+    <string name="yangi_kadastr_raqami">Yangi kadastr raqami</string>
+    <string name="_1234567">1234567</string>
+    <string name="qarshi">Qarshi</string>
+</resources>
